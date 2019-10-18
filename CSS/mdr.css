@@ -1,0 +1,140 @@
+@charset "ISO-8859-1";
+body
+{
+    background: url('./../image/fond2.jpg');
+    width: 100%;
+    margin: auto;
+    color: #181818;
+}
+header{
+	display: flex;
+    flex-direction: column;
+
+}
+#part1
+{
+    background-color: #792C21;
+    display: flex;
+	max-height: 100px;
+    justify-content: space-around;
+    align-items: flex-end;
+    color: #FEF2EF;
+    margin-bottom: 0;
+    box-shadow: 6px 6px 6px black;
+    text-shadow: 6px 6px 6px #29191C;
+}
+#part2{
+	max-height: 40px;
+	border:3px #FEF2EF solid;;
+}
+#logotipo img
+{
+    max-width: 230px;
+    height: auto;
+    background-image: none;
+}
+
+ul{
+	list-style-type: none;
+	font-weight: bold;
+	display: flex;
+}
+#lang li{
+    margin-right: 15px;
+    padding-right: 7px;
+    border-right: 2px #FEF2EF dotted;
+}
+
+
+nav[id="lang"] a
+{   
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav[id="lang"] a:hover
+{
+    color: #FEF2EF;
+    border-bottom: 3px solid #FEF2EF;
+}
+
+nav[id="naviguer"]{
+	width:100%;
+		background-color:#9E4239;
+	position:sticky;
+	top:0px;
+	box-shadow: 6px 6px 6px #1A060C;
+    text-shadow: 6px 6px 6px #29191C;
+    color: #FEF2EF;
+	
+}
+
+nav ul{
+	list-style-type:none;
+}
+
+nav[id="naviguer"] ul li{
+	float:left;
+	width:25%;
+	text-align:center;
+}
+
+nav[id="naviguer"] a{
+	display:block;
+	text-decoration:none;
+	color: #FEF2EF;
+	border-bottom:2px solid transparent;
+	padding:10px 0px;
+}
+
+nav[id="naviguer"] a:hover{
+	color:#1A060C;
+	border-bottom:2px solid #1A060C;
+}
+
+.sous{
+	display:flex;
+	box-shadow:0px 1px 2px black;
+	background-color:#691F0E;
+	margin-right: 15px;
+    padding-right: 7px;
+}
+
+nav[id="naviguer"]> ul li:hover .sous{
+	display:flex;
+	background-color:#691F0E;
+}
+
+.sous li{
+	float:none;
+	width:100%;
+}
+
+.sous a{
+	padding:10px;
+	border-bottom:none;
+}
+
+.sous a:hover{
+border-bottom:none;
+	background-color:;
+}
+
+.sous{
+	box-shadow:0px 1px 2px black;
+	background-color:grey;
+	display:none;
+	position:absolute;
+	width:100%;
+	z-index:1000;
+}
+
+nav[id="naviguer"] ul li{
+	float:left;
+	width:20%;
+	text-align:center;
+	position:relative;
+}
+
