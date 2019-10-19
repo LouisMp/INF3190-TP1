@@ -131,6 +131,7 @@ footer{
 
     #naviguer ul{
     flex-wrap: wrap;
+	justify-content: space-around;
     
 }
 header h1{
