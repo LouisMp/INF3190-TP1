@@ -122,6 +122,10 @@ footer{
     border-top: 
 }
 
+footer a {
+color: #B6BCC2;
+}
+
 @media all and (max-width: 1024px)
 {
     #mainpage
