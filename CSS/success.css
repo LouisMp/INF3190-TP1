@@ -32,19 +32,6 @@
 header h1{
     font-size: 90%;
 }
-
-#symbole, article, #carte, footer{
-    position: relative;
-    top: 0px;
-    bottom: 0px;
-    width: 88px;
-}
-
-section{
-    display: flex;
-    flex-direction: column;
-}
-
 }
 
 body
@@ -57,9 +44,9 @@ body
 }
 
 ul{
-    list-style-type: none;
-    font-weight: bold;
-    display: flex;
+	list-style-type: none;
+	font-weight: bold;
+	display: flex;
 }
 
 header a {
@@ -67,7 +54,7 @@ color: #FEF2EF;
 }
 
 #lang li{
-    font-size: 1.3em;
+	font-size: 1.3em;
     margin-right: 15px;
     padding-right: 7px;
     border-right: 2px #FEF2EF solid;
@@ -94,7 +81,7 @@ header h1, nav[id="naviguer"] a
 
 #part1
 {
-    background-color: #792C21;
+	background-color: #792C21;
     display: flex; 
     max-height: 100px;
     justify-content: space-around;
@@ -111,14 +98,14 @@ header h1, nav[id="naviguer"] a
 }
 
 #lang ul li[id="en"] a:hover{
-    border-bottom: 3px solid #FEF2EF;
+	border-bottom: 3px solid #FEF2EF;
 }
 
 #part2
 {
-    background-color: #9E4239;
-    min-height: 25px;
-    box-shadow: 6px 6px 6px black;
+	background-color: #9E4239;
+	min-height: 25px;
+	box-shadow: 6px 6px 6px black;
     text-shadow: 6px 6px 6px #29191C;
 }
 
@@ -129,104 +116,44 @@ header h1, nav[id="naviguer"] a
 }
 
 #naviguer ul{
-    display: flex;
-    justify-content: space-around;
+	display: flex;
+	justify-content: space-around;
 }
 
 #naviguer ul li a:hover{
     border-bottom: 3px solid #FEF2EF;
 }
 
-article {
-    width: 375px;
-    height: 500px;
-    text-align: justify;
-    overflow: auto;
-    box-shadow: 5px 5px 15px 5px #000000;
-    border: 19px inset #A3241F;
-border-radius: 0px 36px 0px 40px;
-position: absolute;
-left: 1000px;
-top: 225px;
-padding: 7px;
-color: #1C0F10;
-background-color: white;
-font-weight: bold;
-}
-article h1 img{
-    max-width: 75px;
-    height: auto;
-}
-
-article h1 span{
-    position: absolute;
-    top: 60px;
-    font-size: 1.125em;
-}
-article h1 {
-    border-bottom: 11px ridge #BABABA;
-    border-top: 11px ridge #BABABA;
-    padding: 2px;
-}
-
-#symbole{
-    top: 150px;
-    left: 50px;
-    width: 700px;
-    height: 200px;
-    position: absolute;
-    border: 5px solid #474747;
-border-radius: 40px 40px 0px 0px;
-background-image: url('./../image/employe.jpg');
-background-size: cover;
-}
-
-#symbole-desc{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 15px;
-    padding-top: 15px;
-    padding-left: 4px;
-    background-color: rgba(24,24,24,0.8);
-    color: white;
-    font-size: 0.8em;
-}
-
-#carte{
-    position: absolute;
-    width: 699px;
-    height: 400px;
-    border: 5px solid #474747;
-border-radius: 0px 0px 40px 40px;
-left: 20px;
-    top: 400px;
-    color: black;
-    padding-bottom: 7.5px;
+section{
     background-color: white;
-}
-figcaption{
+    color: #792C21;
+    width: 350px;
+    height: auto;
     text-align: center;
     font-weight: bold;
-    text-shadow: 6px 6px 6px #29191C;
+    border: 14px groove #883124;
+    margin: auto;
+    margin-top: 200px;
 }
-
+section h1{
+    font-family: Zwodrei;
+}
 
 footer{
     text-align: center;
-    width: 100%;
     background-color: #792C21;
     box-shadow: 0px -4px 7px 2px #000000;
     text-shadow: 6px 6px 6px #29191C;
     padding-top: 2.5px;
     padding-bottom: 5px;
-    position: absolute;
-    top: 875px;
     height: 75px;
     font-size: 50%; 
+    position: absolute;
+    top: 670px;
+    width: 100%;
+    border-top: 
 }
 
 footer a {
 color: #B6BCC2;
 }
-
