@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<meta http-equiv="refresh" content="10; URL=index.html"> 
-		<link rel="stylesheet" type="text/css" href="./../CSS/en.css"/>
-<title>ENGLISH VERSION IN CONSTRUCTION</title>
-</head>
-<body>
-<div id="#mainpage">
+	<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>TP1-INF3190 Groupe 66</title>
+		<link rel="stylesheet" type="text/css" href="./../CSS/connexion.css"/>
+	</head>
+	<body>
+		<div id="#mainpage">
 			<header>
 				<div id="part1">
 					<div id="logotipo">
@@ -19,10 +18,10 @@
 					<nav id="lang">
 						<ul >
 							<li id ="fr">
-								<a href="index.html" style="color:#FEF2EF;" title="francais">fr</a>
+								<a href="#" style="color:#FEF2EF;" title="francais">fr</a>
 							</li>
 							<li id ="en">
-								<a href="#" style="color:#FEF2EF;" title="anglais">en</a>
+								<a href="en.html" style="color:#FEF2EF;" title="anglais">en</a>
 							</li>
 						</ul>
 					</nav>
@@ -40,14 +39,16 @@
 				</nav>
 			</div>
 		</header>
-		<section>
-			<h1>&tritime; THE ENGLISH VERSION OF THIS WEBSITE IS NOT CURRENTLY AVAIBLE ! &tritime;</h1>
-			<h2> SORRY FOR THE INCONVENIENCE</h2>
-			<figure>
-			<img src="./../image/rouages.gif" alt="rouages" title="construc">
-			<figcaption>CONSTRUCTION...</figcaption>
-			</figure>
-		</section>
+		<fieldset>
+				<legend> Connexion :</legend>
+				<form method="post" action="success.html">
+		   username:<input type="text" pattern="[a-z]{5,8}[0-9]{2}" placeholder="exemple99" required/>
+		   <br/>
+		   password:<input name="mdp" type="password" 
+		                       pattern="[A-Za-z0-9?*-+]{8,12}" placeholder="8 &agrave; 12 car. (+*? permis)" required/><br/>
+		 			<input type="submit" value="Se connecter">
+				</form>
+		</fieldset>
 		<footer>
 			<div class="dvl">
 				<h2>Ce site est d&eacute;velopp&eacute; dans le cadre du cours <a href="http://www.etudier.uqam.ca/cours?sigle=INF3190" class="uqamliens">INF3190</a>
@@ -59,6 +60,6 @@
 				<a href="mailto:mpandzo-otiankouya.louis_junior@courrier.uqam.ca">Mpandzo Louis Junior</a> & <a href="mailto:diakhate.mohamed@courrier.uqam.ca">Momo Caffard</a>
 			</div>
 		</footer>
-	</div>
+	</div>	
 </body>
 </html>
